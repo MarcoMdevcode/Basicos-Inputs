@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div>
+<h1>Checkout</h1>
+<section>
+ <h2>Tu reservación</h2>
+ <img src="hotel.jpg" alt="hotel-castillo">
+</section>
+<section>
+    <h2>Información de Pago</h2>
+    <form>
+        <div class="datos"><span>Nombre</span><span>Número</span></div>
+        <input type="text" id="card-name" name="card-name" required></input>
+        <label for="card-name"><span aria-hidden="true">*</span></label>
+        <input type="text" id="card-number" name="card-number" required aria-describedby="card-number-help"></input>
+        <p id="card-number-help" >Ingresa tu número de tarjeta</p>
+    </form>
+    <label for="card-number"><span aria-hidden="true">*</span></label>
+</section>
+</div>
+</body>
+</html>
